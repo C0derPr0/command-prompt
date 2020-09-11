@@ -1,0 +1,78 @@
+body {
+    min-width: 90vw;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eee;
+  }
+  
+  .console {
+    font: 16px Consolas;
+    width: 700px;
+    height: 450px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  
+  .console header {
+    background-color: #00f;
+    font: 16px Consolas;
+    height: 45px;
+    line-height: 45px;
+    text-align: left;
+    color: #DDD;
+  }
+
+    .console header::before {
+        background-image: url('../images/cmd-icon.png');
+        background-size: 32px 32px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: 32px;
+        margin-left: 10px;
+        margin-top: 5px;
+        padding-left:35px;
+        content:"Administrator: Command Prompt";
+        vertical-align: top;
+    }
+ 
+  .console .consolebody {
+    background-color:#000;
+    box-sizing: border-box;
+    padding: 0;
+    height: calc(100% - 40px);
+    overflow: hidden;
+    color: #63de00;
+  }
+  
+  .console .consolebody p {
+    font: 16px Consolas;
+  }
+
+  .console textarea {
+      background: #000;
+      border: 0;
+      color: #63de00;
+      font: 16px Consolas;
+      height: 94%;
+      width: 100%;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      resize: none;
+  }
+
+    .console textarea:focus {
+        outline: none;
+    }
+
+#timer {
+  background-color:#000;
+  border: 0;
+  color: #63de00;
+  font: 16px Consolas;
+  outline: none;
+  text-align: right;
+  width: 96.5%;
+  visibility: hidden;
+}
