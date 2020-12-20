@@ -1,4 +1,4 @@
-<a href="https://coderpro.net" target="_top"><img src="https://coderpro.net/images/logos/coderPro_logo_rounded_extra-90x90.webp" align="right" /></a>
+<a href="https://coderpro.net" target="_top"><img src="https://coderpro.net/media/1024/coderpro_logo_rounded_extra-90x90.webp" align="right" align="right" /></a>
 
 # Command-Prompt
 
